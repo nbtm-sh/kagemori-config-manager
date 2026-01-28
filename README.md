@@ -40,3 +40,11 @@ test_config = MyConfig("./myconfig.yaml")
 ```
 
 In this instance, the wrapper will attempt to load `myconfig.yaml`. If this file does not exist, it will be created. Then, any unset default values will be set. Following, all mandatory values will be asserted. By default, mandatory and default assertions will be checked whenever changes are made.
+
+## To-do
+
+- [ ] Add support for file inclusions (#1)
+- [ ] Add support for different file formats (#2)
+- [ ] Add tests (#3) 
+- [ ] Deploy to Pypi (#4)
+- [ ] Improve documentation (#5)
